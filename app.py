@@ -1,10 +1,10 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Chiku and Wubz!'
+    return render_template("index.html")
 
 @app.route('/tea')
 def tea():
-    return "<h2> This is a tea page <h2>"
+    return "<h2> This is a tea page, made by us! <h2>"
