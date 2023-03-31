@@ -7,4 +7,4 @@ def hello_world():
 
 @app.route('/tea')
 def tea():
-    return "<h2> This is a tea page, made by us! <h2>"
+    return "<h2> This is a tea page, made by us! . <h2>"
