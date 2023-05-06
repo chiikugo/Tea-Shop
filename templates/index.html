@@ -12,6 +12,14 @@
 </head>
 <body>
     <img src="{{url_for('static', filename= '/images/iroh.gif')}}">
+    
+    <button onclick = "redirectNextPage()"> Tea! </button>
+    <script>
+        function redirectNextPage(){
+            window.location.href = "{{url_for('tea')}}"
+        }
+    </script>
+
 Content goes here
 </body>
 </html>
