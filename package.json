@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/chiikugo/Tea-Shop/issues"
   },
-  "homepage": "https://github.com/chiikugo/Tea-Shop#readme"
+  "homepage": "https://github.com/chiikugo/Tea-Shop#readme",
+  "dependencies": {
+    "javascript-terminal": "^1.1.1"
+  }
 }

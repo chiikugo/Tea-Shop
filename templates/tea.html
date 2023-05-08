@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title><h2> Tea Page!</h2></title>
+
+<body>
+   
+        <img src="{{url_for('static', filename= '/images/iroh.gif')}}">
+   
+
+    <button onclick = "redirectNextPage()"> Tea One! </button>
+    <script>
+        function redirectNextPage(){
+            window.location.href = "{{url_for('poem1')}}"
+        }
+    </script>
+    
+
+</head>
+</body>

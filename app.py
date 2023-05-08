@@ -1,4 +1,8 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for
+
+#from flask_sqlalchemy import SQLAlchemy
+#i want to use python, genja and an api for this project
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -7,4 +11,9 @@ def hello_world():
 
 @app.route('/tea')
 def tea():
-    return "<h2> This is a tea page, made by us! ..  testing to make sure I know how to use git --chiku<h2>"
+    return render_template("tea.html")
+
+@app.route('/poem1')
+def poem1():
+    return render_template("poem1.html")
+
