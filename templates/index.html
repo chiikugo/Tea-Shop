@@ -11,15 +11,28 @@
 <meta name="keywords" content="html tutorial template">
 </head>
 <body>
+ 
+ 
+    <!----< Button redirection to tea page a-->
+    
   
-    <img src="{{url_for('static', filename= '/images/iroh.gif')}}">
-   <button onclick = "redirectNextPage()"> Tea! </button>
-    <script>
+  <img src="{{url_for('static', filename= '/images/iroh.gif')}}">
+    <button class ='teabutton' onclick = "redirectNextPage()"> Tea Page! </button>
+    <script> 
         function redirectNextPage(){
             window.location.href = "{{url_for('tea')}}"
         }
     </script>
-    
+
+    <div class='fake'>
+        <b>
+            hello darkness my old friend...
+        </b>
+    </div>
+
 Content goes here
+
+
+
 </body>
 </html>
