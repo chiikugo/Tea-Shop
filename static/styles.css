@@ -1,10 +1,17 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
 .teabutton {
     color: rgb(8, 71, 4);
     background-color: bisque;
     font-size: 50;
-    top: 50%;
-    
+    top: 50%; 
 }
-.fake {
-    color: yellowgreen;
+
+.home-page{
+    background-image: url('static/images/teabg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
