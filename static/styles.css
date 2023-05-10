@@ -1,17 +1,18 @@
 body {
     margin: 0;
     font-family: system-ui;
+    background-image: url('images/teabg.png'); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .teabutton {
     color: rgb(8, 71, 4);
     background-color: bisque;
-    font-size: 50;
-    top: 50%; 
-}
-
-.home-page{
-    background-image: url('static/images/teabg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
