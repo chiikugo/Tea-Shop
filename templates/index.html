@@ -12,16 +12,19 @@
 </head>
 <body>
     
-<section class = "home-page">
+<div class = "home-page">  
+    <img src = >
+    <img src="{{url_for('static', filename= '/images/uncleiroh.png')}}" alt = >
     <!----< Button redirection to tea page a-->
   <img src="{{url_for('static', filename= '/images/iroh.gif')}}">
-    <button class ='teabutton' onclick = "redirectNextPage()"> Tea Page! </button>
+</div>
+  <button class ='teabutton' onclick = "redirectNextPage()"> Tea Page! </button>
     <script> 
         function redirectNextPage(){
             window.location.href = "{{url_for('tea')}}"
         }
     </script>
+</div>
 
-</section>
 </body>
 </html>

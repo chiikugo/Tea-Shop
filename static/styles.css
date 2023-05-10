@@ -1,13 +1,7 @@
 body {
     margin: 0;
     font-family: system-ui;
-    background-image: url('images/teabg.png'); 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
-    min-height: 100vh;
-    width: 100%;
+
 }
 
 .teabutton {
@@ -15,8 +9,23 @@ body {
     background-color: bisque;
     font-size: 50;
     top: 50%;
+    position: absolute;
     
 }
-.fake {
-    color: yellowgreen;
+.home-page {
+    background-image: url('images/teabg.png'); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0; 
+    position: relative;
+    opacity: 30%;
+}
+
+.iroh {
+    
 }
