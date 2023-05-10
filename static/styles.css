@@ -23,9 +23,21 @@ body {
     top: 0;
     left: 0; 
     position: relative;
-    opacity: 30%;
+
 }
 
-.iroh {
+.everything {
+    z-index: 2;
+    background-position: absolute;
+    opacity: 30%;
+
     
 }
+.unciroh img{
+    height: 500px;
+
+}
+
+
+
+
