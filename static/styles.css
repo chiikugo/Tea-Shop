@@ -23,6 +23,7 @@ body {
     top: 0;
     left: 0; 
     position: relative;
+    opacity: 30%;
 
 }
 
@@ -30,14 +31,44 @@ body {
     z-index: 2;
     background-position: absolute;
     opacity: 30%;
+    position: absolute;
 
     
 }
 .unciroh img{
-    height: 500px;
+    height: 400px;
+    position: absolute;
+    right: 100px;
+    bottom: -225px;
+}
+.iroh {
+    position: absolute;
+    bottom: -210px;
+    left: 100px;
 
 }
 
+.navbar {
+    background-color: antiquewhite;
+    color: rgb(144, 12, 12); 
+    padding: 0%;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    top: 10px;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+}
 
+.logo a {
+    font-size: 40o;
+    color: red;
+}
 
+.navdiv{
+    display: flex; 
+    align-items: center;
+}
 

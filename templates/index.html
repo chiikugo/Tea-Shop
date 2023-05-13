@@ -23,6 +23,17 @@
     <img src='/static/images/iroh.gif'>
     </div>
 
+    <nav class ="navbar">
+        <div class = "navdiv">
+            <div class="logo"> <a href="#">Jasmine Dragon</a> </div>
+           
+            <ul>
+                <li> <a href="#"> Teas </a> </li>
+                <li> <a href="#"> Poems </a> </li>
+            </ul>
+        </div>
+    </nav>
+
         <!----< Button redirection to tea page a-->
     <button class ='teabutton' onclick = "redirectNextPage()"> Tea Page! </button>
     <script> 
@@ -30,6 +41,5 @@
             window.location.href = "{{url_for('tea')}}"
         }
     </script>
-</div>
 </body>
 </html>
